@@ -1,0 +1,337 @@
+@font-face {
+    font-family: "poppinsR";
+    src: url(font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "poppinsS";
+    src: url(font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(font/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+
+
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "poppinsR";
+    font-size: 13px;
+    margin: 0px 25px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ 
+    background-color: rgba(255, 255, 255, 0.952);
+    border-bottom: 0.2px solid rgba(34, 34, 34, 0.756);
+    position: fixed;
+ z-index: 1000;
+ top: 0;
+ 
+ width: 100%;
+ padding: 15px 0;
+}
+
+body{
+   padding-top: px;
+}
+
+#logo {
+    height: 23px;
+    width: 25px;
+}
+
+.inicial{
+  
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p span {
+    font-family: "Inter";
+    font-size: 31px;
+    background: linear-gradient(88deg, #3E36E4, #4365DC, #488AED);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 660;
+}
+
+.apre p{
+    font-family: "Inter";
+    font-size: 31px;
+    color: #181818;
+    font-weight: 560;
+}
+
+.apre input{
+    border: 0.5px solid rgba(214, 214, 214, 0.54);
+    border-radius: 50px;
+    height: 35px;
+    width: 530px;
+    margin-top: 55px;
+}
+
+.inicial img{
+    height: 500px;
+  
+}
+
+.apre{
+    margin-top: 170px;
+}
+
+.inicial{
+    padding: 100px 160px 70px 160px;
+}
+
+
+.filtros{
+    display: flex;
+    flex-direction: row;
+    padding: 0 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Inter";
+    font-size: 13px;
+}
+
+.categorias img{
+    margin-right: 10px;
+    height: 25px;
+}
+
+#sevicos:hover img {
+    content: url('img/nfiltro1.png'); 
+    height: 25px;
+}
+
+#ferra:hover img {
+    content: url('img/nfiltro2.png'); 
+    height: 25px;
+}
+
+#alimentacao:hover img {
+    content: url('img/nfiltro3.png');
+    height: 25px;
+}
+
+#casa:hover img {
+    content: url('img/nfiltro4.png'); 
+    height: 25px;
+}
+
+#vestimenta:hover img {
+    content: url('img/nfiltro5.png');
+    height: 25px;
+}
+
+
+.nome{
+    font-family: "Inter";
+    font-weight: 300;
+   
+    font-size: 15px;
+   
+    margin: 20px 20px 8px 20px;
+
+  }
+
+  .preco{
+  
+    font-family: "Inter";
+    font-weight: 300;
+    color: #A2A2A2;
+    font-size: 15px;
+  }
+
+  
+
+  .produtos{
+    padding: 65px 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .quadrado {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 257px;
+    height: 350px;
+    padding-top: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 3px rgba(69, 69, 69, 0.144);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+
+  }
+  
+  .quadrado:hover {
+    transform: scale(1.05);
+  }
+  
+  .quadrado img {
+    width: 150px;
+    height: 124px;
+    margin-bottom:10px ;
+  }
+  
+  .vermais {
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    width: 97px;
+    height: 25px;
+    background-color: rgba(0, 0, 0, 0.3); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+    background-color: #15100f; 
+    color: rgba(255, 255, 255, 0.896);
+    font-size: 11px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .quadrado:hover .vermais {
+    opacity: 1; 
+  }
+  
+  .vermais:hover {
+    background-color: #3b21b2; 
+  }
+  
+  * {
+    scrollbar-width: thin; 
+    scrollbar-color: #000000 #f0f0f0; 
+  }
+
+  .destaque{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 20px;
+    padding: 135px 160px 0px 160px;
+}
+
+.lojas-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px;
+    background-color: #ffffff; 
+    border-radius: 13px 90px 13px 13px;
+    box-shadow: 0 0px 8px rgba(16, 16, 16, 0.134);
+    
+    height: 409px;
+    margin-top: 80px;
+    
+  }
+  
+  .lojas-texto {
+    max-width: 50%;
+    padding: 20px 70px;
+  }
+  
+  .lojas-texto h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  
+
+  .lojas-texto p {
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    color: #2e2e2e;
+    margin-bottom: 30px;
+  }
+  
+  .lojas-button {
+    display: inline-block;
+    background-color: #0b0b0b; 
+    color: #ffffffed;
+    font-size: 14px;
+    padding: 12px 60px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+  }
+  
+  .lojas-button:hover {
+    background-color: #1f31bdc3; 
+  }
+  
+  .lojas-imagem {
+    max-width: 40%;
+  }
+  
+  .lojas-img {
+    height: 408px;
+    border-radius: 0px 0 8px 0;
+    object-fit: cover;
+  }
+  
+
+ .qs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 160px;
+ }
+
+ .missoes{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .missoes img{
+    height: 60px;
+ }
+
+ .conecta span{
+    margin-top: 35px;
+ }
+
+ #quemsomos{
+    font-family: "Inter";
+    font-size: 19px;
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 32px;
+    margin-bottom: 56px;
+
+
+ }
