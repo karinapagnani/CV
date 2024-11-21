@@ -88,12 +88,23 @@ p span {
     font-weight: 560;
 }
 
-.apre input{
+.apre .barra{
     border: 0.6px solid rgba(163, 163, 163, 0.629);
     border-radius: 50px;
-    height: 35px;
+   height: 35px; 
     width: 610px;
     margin-top: 55px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.barra input{
+    width: 570px;
+    height: 35px; 
+    padding: 0px 0 0 8px;
+    border-radius: 50px;
+    margin-left: 10px;
 }
 
 .inicial img{
@@ -107,7 +118,7 @@ p span {
 }
 
 .inicial{
-    padding: 100px 140px 15px 140px;
+    padding: 80px 140px 16px 140px;
 }
 
 
@@ -179,7 +190,7 @@ p span {
   
 
   .produtos{
-    padding: 65px 140px;
+    padding: 45px 140px 65px 140px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -195,7 +206,7 @@ p span {
     height: 350px;
     padding-top: 20px;
     background-color: rgb(254, 254, 254);
-    box-shadow: 0px 0px 3px rgba(48, 48, 48, 0.264);
+    box-shadow: 0px 0px 3px rgba(48, 48, 48, 0.368);
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
 
@@ -425,4 +436,6 @@ p span {
 
 #lupa{
     height: 15px;
+    margin: 0;
+    padding-left: 13px;
 }
