@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "poppinsR";
+    src: url(font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "poppinsS";
+    src: url(font/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(font/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+
+
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "poppinsR";
+    font-size: 13px;
+    margin: 0px 25px;
+}
+
+header{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ 
+    background-color: rgba(255, 255, 255, 0.842);
+    border-bottom: 0.2px solid rgba(34, 34, 34, 0.756);
+    position: fixed;
+ z-index: 1000;
+ top: 0;
+ 
+ width: 100%;
+ padding: 15px;
+}
+
+
+header nav{
+    margin: 0 100px 0 130px;
+}
+
+#logo {
+    height: 23px;
+    width: 25px;
+}
+
+
+body{
+   padding-top: 150px;
+}
+
+
+.barra{
+    border: 0.6px solid rgba(163, 163, 163, 0.629);
+    border-radius: 50px;
+   height: 40px; 
+    width: 610px;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+     
+    
+
+}
+
+.barra input{
+    width: 570px;
+    height: 40px; 
+    padding: 0px 0 0 8px;
+    border-radius: 50px;
+    margin-left: 10px;
+
+}
+
+.guardando{
+    display: flex;
+    justify-items: center;
+}
+
+.filtros{
+    display: flex;
+    flex-direction: row;
+    padding: 0 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Inter";
+    font-size: 13px;
+}
+
+.categorias img{
+    margin-right: 10px;
+    height: 20px;
+}
+
+#sevicos:hover img {
+    content: url('img/nfiltro1.png'); 
+    height: 25px;
+}
+
+#ferra:hover img {
+    content: url('img/nfiltro2.png'); 
+    height: 25px;
+}
+
+#alimentacao:hover img {
+    content: url('img/nfiltro3.png');
+    height: 25px;
+}
+
+#casa:hover img {
+    content: url('img/nfiltro4.png'); 
+    height: 25px;
+}
+
+#vestimenta:hover img {
+    content: url('img/nfiltro5.png');
+    height: 25px;
+}
+
+#lupa{
+    height: 19px;
+    margin: 0;
+    padding-left: 13px;
+}
+
+
+.filtros button{
+    background-color: white;
+    border: 3px solid #3F37E5;
+    padding: 10px 30px;
+    border-radius: 7px 7px ;
+    color: #3F37E5;
+    font-family: "Inter";
+}
+
+.guardando{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.produtos{
+    background-color: #FBFBFB;
+    padding: 80px 140px;
+
+}
+
+.img{
+    height: 170px;
+}
