@@ -4,19 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho de Compras</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carrinho.css">
 </head>
 <body>
+    <header>
+        <img src="img/sacola-de-compras.png" id="logo" alt="">
+        <nav> <a href="home.html">Contato</a>
+            <a href="home.html">Quem somos</a>
+            <a href="home.html">Home</a>
+            <a href="produtos.html">Produtos</a>
+        </nav>
 
-    <h1>Carrinho de Compras</h1>
-
-    <div id="cart-list">
-        <ul></ul>
-    </div>
-
-    <p>Total: R$<span id="total">0.00</span></p>
+        <div class="icones"> <a href=""><img src="img/Vector.png" alt=""></a> <a href=""><img src="img/Group.png"
+                    alt=""></a> </div>
+    </header>
   
+   
+  <main>
+    <section id="carrinho-lista">
+      <!-- Os produtos adicionados ao carrinho irão aparecer aqui -->
+    </section>
 
-    <script src="cart.js"></script>
+    <div id="total">
+      <h3>Total: R$ <span id="total-valor">0.00</span></h3>
+    </div>
+  </main>
+  
+    <script src="carrinho.js"></script>
+    
 </body>
 </html>

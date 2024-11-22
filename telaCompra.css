@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:'INTER' ;
+    src: url(font/Inter-VariableFont_opsz\,wght.ttf);
+}
+.quadrado{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #3c40434d 0px 1px 2px 0px, #3c404326 0px 2px 6px 2px;
+}
+.tela{
+   display: flex;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+.informacao{
+    font-family:'INTER';
+    margin-top: 50px;
+    padding-left: 150px;
+}
+.informacao p{
+    font-size: 15px;
+    color: #797979;
+}
+.avaliacao img{
+    width: 150px;
+}
+.avaliacao{
+    display: flex;
+    margin-top: 10px;
+}
+.avaliacao p{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.final{
+    display: flex;
+    margin-top: 50px;
+}
+.final p{
+    padding-left: 50px;
+    margin-top: 8px;
+}
+.botao{
+    margin-top: 50px;
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.botao1{
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin: 0 50px;
+}
+.botao1 img{
+    height: 20px;
+    width: 20px;
+}
+.cor{
+    font-size: 25px;
+    font-family: 'INTER';
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.branco,.cinza,.preto,.vermelho{
+    height: 150px;
+    width: 150px;
+    box-shadow: #3c40434d 0px 1px 2px 0px, #3c404326 0px 2px 6px 2px;
+    margin: 0 10px;
+}
+.cores{
+    padding-left:190px;
+}
+.detalhe{
+    display: flex;
+    margin-top: 100px;
+    padding-left: 150px;
+    font-family: 'inter';
+    font-size: 20px;
+}
+.ava{
+    margin: 0 60px;
+}
+hr{
+    background-color: rgb(0, 0, 0);
+    height: 1px;
+}
+.descricao p{
+    font-size: 25px;
+    padding-left: 50px;
+    margin: 0 100px 25px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.descricao h2{
+    font-family: 'inter';
+    font-size: 30px;
+    padding-left: 150px;
+    margin: 0 0 25px 0;
+}
+.descricao2 p{
+    font-size: 25px;
+    padding-left: 150px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}

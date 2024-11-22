@@ -1,87 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ConectaVendas</title>
     <link rel="stylesheet" href="estilo.css">
+   
 </head>
-
 <body>
     <header>
         <img src="img/sacola-de-compras.png" id="logo" alt="">
-        <nav> <a href="#contato">Contato</a>
+        <nav>
+            <a href="#contato">Contato</a>
             <a href="#quemsomos">Quem somos</a>
             <a href="#home">Home</a>
             <a href="produtos.html">Produtos</a>
         </nav>
-
-        <div class="icones"> <a href=""><img src="img/Vector.png" alt=""></a> <a href=""><img src="img/Group.png"
-                    alt=""></a> </div>
+        <div class="icones">
+            <a href="carrinho.html"><img src="img/Vector.png" alt=""></a>
+            <a href="Login.html"><img src="img/Group.png" alt=""></a>
+        </div>
     </header>
 
     <main>
-
         <div class="inicial" id="home">
-
             <div class="apre">
                 <p><span>ConectaVendas.</span> O melhor do comércio <br>local, a um clique de você.</p>
-                <div class="barra"> <img src="img/lupa (1).png" alt="" id="lupa"> <input type="text"></div>
+
+                
+                <div class="barra">
+                    <img src="img/lupa (1).png" alt="" id="lupa"> 
+                    <input type="text" id="search-input">
+                </div>
+                <div id="autocomplete-list" class="autocomplete-items"></div>
             </div>
-
             <img src="img/image 20 (1).png" alt="">
-
         </div>
 
-
-
-
-        <p class="destaque">Em destaque. Descubra todas as promoções</p>
-
+        <div class="pr">
+            <p class="destaque">Em destaque. Descubra todas as promoções</p>
+            <a href="">Ver todos</a>
+        </div>
+        
         <div class="produtos">
             <div class="quadrado">
                 <img src="img/produto1 (1).png" alt="" class="img">
-
-                <button class="vermais">
-                    Ver mais
-                </button>
+                <a href="telaFone.html" class="vermais">Ver mais</a>
                 <p class="nome">Headphone Bluetooth P9 Air Top Casual Esportivo</p>
                 <p class="preco">R$ 50,00 por R$40,00</p>
             </div>
-
             <div class="quadrado">
                 <img src="img/produto2 (1).png" alt="" class="img">
-
-                <button class="vermais">
-                    Ver mais
-                </button>
+                <a href="" class="vermais">Ver mais</a>
                 <p class="nome">Pen Drive 64GB USB</p>
                 <p class="preco">R$25,00 por R$20,00</p>
             </div>
-
             <div class="quadrado">
                 <img src="img/produto3 (1).png" alt="" class="img">
-
-                <button class="vermais">
-                    Ver mais
-                </button>
+                <a href="" class="vermais">Ver mais</a>
                 <p class="nome">Óleo Johnson's Baby Regular Hidrata e Amacia</p>
                 <p class="preco">R$ 48,00 por R$39,90</p>
             </div>
-
             <div class="quadrado">
                 <img src="img/produto4__1_-removebg-preview.png" alt="" class="img">
-
-                <button class="vermais">
-                    Ver mais
-                </button>
+                <a href="manta.html" class="vermais">Ver mais</a>
                 <p class="nome">Manta Blanket 300 Casal de poliéster</p>
                 <p class="preco">R$ 45,00 por R$37,00</p>
             </div>
-
         </div>
-
 
         <div class="lojas-section">
             <div class="lojas-texto">
@@ -93,45 +79,40 @@
                 <img src="img/loj-virtual 1 (1).png" alt="Lojas Locais" class="lojas-img">
             </div>
         </div>
+
         <div class="qs">
-
-            <p class="conecta" id="quemsomos"> <span>ConectaVendas</span></p>
-
-            <p class="mis">Bem-vindo ao ConectaVendas! Somos uma plataforma que conecta o comércio local ao meio
-                digital, ajudando pequenas e médias empresas a expandirem seus negócios. Nosso objetivo é facilitar a
-                transição para o ambiente online e ampliar o alcance das lojas da cidade, oferecendo uma vitrine digital
-                acessível e moderna. Acreditamos no impacto positivo das empresas locais e estamos aqui para apoiar o
-                crescimento de cada uma delas visando:</p>
+            <p class="conecta" id="quemsomos"><span>ConectaVendas</span></p>
+            <p class="mis">Bem-vindo ao ConectaVendas! Somos uma plataforma que conecta o comércio local ao meio digital...</p>
             <div class="missoes">
-                <div class="ind"><img src="img/Group 9.png" alt="">
+                <div class="ind">
+                    <img src="img/Group 9.png" alt="">
                     <p>integração com o <br>meio digital</p>
                 </div>
-                <div class="ind"><img src="img/Group 10.png" alt="">
+                <div class="ind">
+                    <img src="img/Group 10.png" alt="">
                     <p>maior praticidade <br>para os clientes</p>
                 </div>
-                <div class="ind"><img src="img/Group 11.png" alt="">
+                <div class="ind">
+                    <img src="img/Group 11.png" alt="">
                     <p>valorização do <br>comércio local.</p>
                 </div>
-
             </div>
             <p class="frase">Sua cidade, suas compras, sua comunidade.</p>
-
-
         </div>
-
     </main>
 
     <footer>
-
-        <div class="men"><a href="#quemsomos">Quem somos</a> <a href="#home">Home</a> <a href="">Lojas</a></div>
+        <div class="men">
+            <a href="#quemsomos">Quem somos</a>
+            <a href="#home">Home</a>
+            <a href="">Lojas</a>
+        </div>
         <div class="contato" id="contato">
-
             <p class="num">Telefone: (11) 99999-0000 </p>
             <p class="num">E-mail:conectavendas@gmail.com.br</p>
         </div>
     </footer>
 
-
+    <script src="home.js"></script>
 </body>
-
 </html>

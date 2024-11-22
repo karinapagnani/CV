@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+@font-face {
+    font-family: "Inter";
+    src: url(font/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: semi;
+    src: url(font/Poppins-SemiBold.ttf);
+}
+main{
+    display: flex;
+    height: 100%;
+
+}
+
+
+
+
+
+
+.bola{
+    width: 50%;
+    background-color: #F8F8F8;
+    height: 736px;
+    display: grid;
+    place-items: center;
+}
+.info{
+    display: grid;
+    place-items: center;
+    display: block;
+    padding-left: 62px;
+}
+span{
+    color: #e8e8e8;
+    font-weight: 20;
+    font-size: 17px;
+    font-weight: 10;
+    font-family: semi;
+}
+.voltar{
+    font-size: 14px;
+    color: #000000;
+    font-family: regular;
+    padding-left: 300px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    text-decoration: none;
+}
+.criar {
+    font-size: 14px;
+    color: #797979;
+    font-family: regular;
+    margin-top: 13px;
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-family: semi;
+    padding-right: 300px;
+}
+button{
+    width: 480px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #424242;
+    border: 1px solid black;
+    color: white;
+    font-family: regular;
+}
+input{
+    border: 1px solid #DCDCDC;
+    width: 480px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+::placeholder{
+    color: #DCDCDC;
+    padding-left: 15px;
+    font-size: 15px;
+}
+hr{
+    height: 2px;
+}
+.linha{
+    background-color: black;
+    height: 1px;
+    width: 280px;
+    margin-top: 25px;
+}
+.central{
+    display: grid;
+    place-items: center;
+}
