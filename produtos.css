@@ -15,6 +15,12 @@
 
 
 
+* {
+    scrollbar-width: thin; 
+    scrollbar-color: #000000 #ffffff; 
+  }
+
+
 
 *{
     border: 0;
@@ -46,6 +52,14 @@ header{
  width: 100%;
  padding: 15px;
 }
+
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+ }
 
 
 header nav{
