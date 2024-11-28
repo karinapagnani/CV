@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppinsR";
+}
+@font-face {
+    font-family: "poppinsR";
+    src: url(font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "poppinsS";
+    src: url(font/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Inter";
+    src: url(font/Inter-VariableFont_opsz\,wght.ttf);
+}
+.filtros{
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+}
+.manta, .fone, .pendrive, .rosa, .oleo, .doce, .chave, .tesoura{
+    width: 170px;
+    height: 195px;
+    border-radius: 4px;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+.Lojas{
+    text-align: center;
+    font-size: 39px;
+}
+.produtos1, .produtos2, .produtos3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+.Manta, .Fone, .Pendrive, .Rosa, .Oleo, .Doce, .Doce, .Chave {
+    width: 350px;
+    height: 480px;
+    box-shadow: 0px 0px 3px rgba(48, 48, 48, 0.368);
+    margin-left: 80px;
+    border-radius: 8px;
+}
+.Manta p, .Fone p, .Pendrive p, .Rosa p, .Oleo p, .Doce p, .Chave p {
+    font-size: 13px;
+    color: #737373;
+    padding-left: 40px;
+    padding-top: 13px;
+}
+.Manta h2, .Fone h2, .Pendrive h2, .Rosa h2, .Oleo h2, .Doce h2, .Chave h2 {
+    font-size: 23px;
+    padding-left: 40px;
+    padding-top: 35px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.servicos, .ferramenta, .alimentacao, .casa, .cabide{
+    padding-left: 60px;
+}
+.Todos{
+    background-color: #FAFAFA;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:7px;
+}
+span{
+    color: #2237CF;
+}
+
+* {
+    scrollbar-width: thin; 
+    scrollbar-color: #000000 #ffffff; 
+  }
+
+
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "poppinsR";
+    font-size: 13px;
+    margin: 0px 25px;
+}
+
+header{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+ 
+    background-color: rgba(255, 255, 255, 0.842);
+    border-bottom: 0.2px solid rgba(34, 34, 34, 0.756);
+    position: fixed;
+ z-index: 1000;
+ top: 0;
+ 
+ width: 100%;
+ padding: 15px;
+}
+
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+ }
+
+
+header nav{
+    margin: 0 100px 0 130px;
+}
+
+#logo {
+    height: 23px;
+    width: 25px;
+}
+
+
+body{
+   padding-top: 150px;
+}
+.barra{
+    border: 0.6px solid rgba(163, 163, 163, 0.629);
+    border-radius: 50px;
+   height: 40px; 
+    width: 610px;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+     
+    
+
+}
+
+.barra input{
+    width: 570px;
+    height: 40px; 
+    padding: 0px 0 0 8px;
+    border-radius: 50px;
+    margin-left: 10px;
+
+}
+
+.guardando{
+    display: flex;
+    justify-items: center;
+}
+
+.filtros{
+    display: flex;
+    flex-direction: row;
+    padding: 0 140px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categorias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Inter";
+    font-size: 13px;
+}
+
+.categorias img{
+    margin-right: 10px;
+    height: 20px;
+}
+
+#sevicos:hover img {
+    content: url('img/nfiltro1.png'); 
+    height: 25px;
+}
+
+#ferra:hover img {
+    content: url('img/nfiltro2.png'); 
+    height: 25px;
+}
+
+#alimentacao:hover img {
+    content: url('img/nfiltro3.png');
+    height: 25px;
+}
+
+#casa:hover img {
+    content: url('img/nfiltro4.png'); 
+    height: 25px;
+}
+
+#vestimenta:hover img {
+    content: url('img/nfiltro5.png');
+    height: 25px;
+}
+
+#lupa{
+    height: 19px;
+    margin: 0;
+    padding-left: 13px;
+}
+
+
+.filtros button{
+    background-color: white;
+    border: 3px solid #3F37E5;
+    padding: 10px 30px;
+    border-radius: 7px 7px ;
+    color: #3F37E5;
+    font-family: "Inter";
+}
+
+.guardando{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.filtros{
+    display: flex;
+    flex-direction: row;
+    padding: 115px 100px 70px 160px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.categorias{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Inter";
+    font-size: 13px;
+}
+
+.categorias img{
+    margin-right: 10px;
+    height: 25px;
+}
+
+#sevicos:hover img {
+    content: url('img/nfiltro1.png'); 
+    height: 25px;
+}
+
+#ferra:hover img {
+    content: url('img/nfiltro2.png'); 
+    height: 25px;
+}
+
+#alimentacao:hover img {
+    content: url('img/nfiltro3.png');
+    height: 25px;
+}
+
+#casa:hover img {
+    content: url('img/nfiltro4.png'); 
+    height: 25px;
+}
+
+#vestimenta:hover img {
+    content: url('img/nfiltro5.png');
+    height: 25px;
+}
+.produtos2, .produtos3{
+    padding-top: 70px;
+}
+.rosa, .oleo, .chave, .tesoura{
+    width: 160px;
+    padding-left: 10px;
+}
+.oleo{
+    padding-left: 34px;
+    width: 100px;
+}
+.doce{
+    width: 180px;
+}
+.tesoura{
+    width: 170px;
+    height: 170px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+.produtos3{
+    padding-right: 430px;
+}
+.Fone:hover, .Manta:hover, .Pendrive:hover, .Rosa:hover, .Oleo:hover, .Doce:hover, .Chave:hover, .Tesoura:hover{
+    transform: scale(1.05);
+  }
+  .vermais {
+    margin-top: 8px;
+    top: 0;
+    left: 0;
+    width: 97px;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.3); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+    background-color: #15100f; 
+    color: rgba(255, 255, 255, 0.896);
+    font-size: 11px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .Fone:hover .vermais, .Manta:hover .vermais, .Pendrive:hover .vermais, .Rosa:hover .vermais, .Oleo:hover .vermais, .Doce:hover .vermais, .Chave:hover .vermais, .Tesoura:hover .vermais  {
+    opacity: 1; 
+  }
+  
+  .vermais:hover {
+    background-color: #3b21b2; 
+  }
+  .Fone:hover, .Manta:hover, .Pendrive:hover, .Rosa:hover, .Oleo:hover, .Chave:hover{
+    transform: scale(1.05);
+  }
+  .vermais{
+    margin-left: 123px;
+    margin-top: 20px;
+  }
+  footer{
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+
+ }
+
+ footer a{
+    color: white;
+    font-size: 16px;
+ }
+
+ .men{
+    border-bottom: 0.3px solid rgba(255, 255, 255, 0.636);
+    padding: 25px 0;
+    width: 1517px;
+    display: flex;
+    justify-content: center;
+ }
+ .contato{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1517px;
+    font-family: "Inter";
+    padding: 30px 0px;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    align-items: center;
+ }
+ .contato p {
+ 
+    font-size: 17px;
+    font-weight: 300;
+ }
+  
+  

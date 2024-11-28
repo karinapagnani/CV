@@ -52,7 +52,7 @@ span{
     font-size: 14px;
     color: #000000;
     font-family: regular;
-    padding-left: 300px;
+    padding-left: 200px;
     margin-bottom: 60px;
     margin-top: 60px;
     text-decoration: none;
@@ -102,4 +102,5 @@ hr{
 .central{
     display: grid;
     place-items: center;
+    padding-left: 50px;
 }
