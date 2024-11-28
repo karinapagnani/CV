@@ -1,7 +1,7 @@
 
 const suggestions = {
     "Fone Bluetooth branco": "paginaDoFone/index.html",
-    "Manta Blanket 300 Casal de poliéstersa": "paginaDaManta/index.html",
+    "Manta Blanket 300 Casal de poliéstersa": "/produtos/Produto2/manta.html",
     "Pen Drive 64GB USB": "paginaDoPenDrive/index.html",
     "Presilha de cabelo de flor": "paginaDaPresilha/index.html",
 };

@@ -431,7 +431,8 @@ p span {
     font-weight: 300;
     text-align: justify;
     padding-bottom: 105px;
-    
+    text-align: center;
+    width: 900px;
 }
 
 #lupa{
