@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estiloFlor.css">
+</head>
+<body>
+    <header>
+        <p id="nome"> <span>Conecta</span>Vendas</p>
+        <div class="cabe">
+            <nav class="menu">
+                <a href="">Home</a>
+                <a href="">Quem somos</a>
+                <a href="">Lojas</a>
+            </nav>
+            <button class="login"><img src="img/do-utilizador.png" alt=""></button>
+            <button class="carrinho"><img src="img/carrinhosem.png" alt=""></button>
+            <label for="">0</label>
+            <a class="contato">contato</a>
+        </div>  
+    </header>
+    <main>
+        <section id="produtinho">
+            <div class="tudoProduto">
+                <div class="ftGrande">
+                    <img class="fotoFone" id="foto ativa" src="img/florPrin.png" alt="foto principal do produto" >
+                </div>
+                <div class="infosProduto">
+                    <p class="vendedor">Vendido por: <span id="vend">Lorem Ipsum</span></p>
+                    <h2 class="desc">Piranha de cabelo de flor</h2>
+                    <div class="ava">
+                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrelinha" src="img/estrelinhaNegativa.png" alt="">
+                        <h4>4.0</h4>
+                    </div>
+                    <div class="quantidade">
+                        <h3>R$5,00</h3>
+                        <p class="quantidadinha">Quantidade:</p>
+                        <select name="quant" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                        </div>
+                        <div class="buy">
+                            <button class="comprar" type="onclick">COMPRAR</button>
+                            <button class="add" type="onclick">Adicionar ao carrinho <img src="img/carrinhobt.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tipos">
+            <p class="cor">Cor: </p>
+                    <div class="variacoes">
+                        <div class="fone">
+                            <img src="img/florRosa.png" alt="">
+                        </div>
+                        <div class="fone">
+                            <img src="img/florAmarela.png" alt="">
+                        </div>
+                        <div class="fone">
+                            <img src="img/florRoxa.png" alt="">
+                        </div>
+                     </div>
+                    </div>  
+        </section>
+        <section id="resto">
+            <div class="tFinal">
+                <div class="filtro">
+                <div class="opcao active" onclick="activateOpcao(this)">Detalhes</div>
+                <div class="opcao" onclick="activateOpcao(this)">Avaliações</div>
+                </div>
+               <div class="detalhes">
+                <p>Piranha de Cabelo de Flor é o acessório perfeito para unir praticidade e estilo no cuidado com os cabelos. Com um design delicado e elegante em formato de flor, ela não apenas mantém os fios bem presos, mas também adiciona um toque especial ao visual. Versátil, é ideal para o uso no dia a dia ou em eventos, garantindo conforto e sofisticação. Sua estrutura é leve e resistente, proporcionando segurança sem danificar os fios. Um detalhe encantador que transforma qualquer penteado em uma expressão de beleza e charme.</p>
+               </div>
+               <h1 class="especifi">Especificações</h1>
+               <div class="especificacoes">
+               <p>Material: <span class="detalhe">As piranhas podem ser confeccionadas em plástico, acrílico ou metal. Por exemplo, a Piranha de Cabelo Flor Branca da Accessori by Riachuelo é feita de plástico 100%.</span></p>
+               <p>Dimensões: <span class="detalhe"> Os tamanhos variam conforme o modelo. Um kit da Renner apresenta piranhas com aproximadamente 4 cm de altura por 5,6 cm de largura.</span> </p>
+               <p>Design: <span class="detalhe"> O formato de flor confere um toque delicado e elegante, disponível em diversas cores e acabamentos, como dourado, bege, marrom e preto. </span> </p>
+               <p>Aplicações: <span class="detalhe">Algumas versões possuem detalhes adicionais, como aplicações de strass, que adicionam brilho e sofisticação ao acessório.</span> </p>
+               <p>Uso: <span class="detalhe">Adequadas para diferentes tipos e comprimentos de cabelo, as piranhas em formato de flor são ideais para prender mechas ou criar penteados variados, combinando funcionalidade com estética.</span> </p>
+               </div>
+              </div>
+        <section id="resto2">
+                <div class="cada">
+                    <div class="tCada">
+                    <h2>Seja parte do <br>Conecta<span id="vendas">Vendas</span></h2>
+                    <h3>cadastre-se como vendedor</h3>
+                </div>
+                <div class="banerzinho">
+                    <img src="img/bannerzinho.png"  class="banner" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="contato"><p class="c">Contato:</p>
+            <p>Telefone: (11) 99999-0000</p>
+            <p>E-mail: conectavendas@gmail.com.br</p>
+        </div>
+     <div class="trabalhe"><p class="c">Trabalhe conosco:</p>
+    <button>Cadastre-se como vendedor</button> </div>
+    </footer>
+   <script src="script.js"></script>
+</body>
+</html>

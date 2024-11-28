@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estiloOleo.css">
+</head>
+<body>
+    <header>
+        <p id="nome"> <span>Conecta</span>Vendas</p>
+        <div class="cabe">
+            <nav class="menu">
+                <a href="">Home</a>
+                <a href="">Quem somos</a>
+                <a href="">Lojas</a>
+            </nav>
+            <button class="login"><img src="img/do-utilizador.png" alt=""></button>
+            <button class="carrinho"><img src="img/carrinhosem.png" alt=""></button>
+            <label for="">0</label>
+            <a class="contato">contato</a>
+        </div>  
+    </header>
+    <main>
+        <section id="produtinho">
+            <div class="tudoProduto">
+                <div class="ftGrande">
+                    <img class="fotoFone" id="foto ativa" src="img/oleo-removebg-preview.png" alt="foto principal do produto" >
+                </div>
+                <div class="infosProduto">
+                    <p class="vendedor">Vendido por: <span id="vend">Lorem Ipsum</span></p>
+                    <h2 class="desc">Óleo Johnson's Baby Regular Hidrata e Amacia</h2>
+                    <div class="ava">
+                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
+                        <h4>5.0</h4>
+                    </div>
+                    <div class="quantidade">
+                        <h3>R$39,00</h3>
+                        <p class="quantidadinha">Quantidade:</p>
+                        <select name="quant" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                        </div>
+                        <div class="buy">
+                            <button class="comprar" type="onclick">COMPRAR</button>
+                            <button class="add" type="onclick">Adicionar ao carrinho <img src="img/carrinhobt.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+        <section id="resto">
+            <div class="tFinal">
+                <div class="filtro">
+                <div class="opcao active" onclick="activateOpcao(this)">Detalhes</div>
+                <div class="opcao" onclick="activateOpcao(this)">Avaliações</div>
+                </div>
+               <div class="detalhes">
+                <p>O Óleo Johnson's Baby Regular é formulado para hidratar profundamente e deixar a pele macia e suave. Ideal para bebês, é dermatologicamente testado e oferece cuidado delicado, mantendo a pele protegida e saudável.</p>
+                <h1 class="especifi">Especificações</h1>
+                <div class="especificacoes">
+                <p>Hidratação profunda: <span class="detalhe"> mantém a umidade natural da pele, deixando-a macia e suave.</span></p>
+                <p>Fórmula suave: <span class="detalhe">transparente e emoliente, adequada para todas as idades.</span> </p>
+                <p>Uso versátil:<span class="detalhe">ideal para massagens e relaxamento de bebês e crianças.</span> </p>
+                <p>Sem aditivos nocivos:<span class="detalhe">livre de corantes, parabenos e ftalatos.</span> </p>
+                <p>Dermatologicamente testado: <span class="detalhe">segurança comprovada para uso diário.</span> </p>
+                <p>Quantidade:<span class="detalhe">01</span> </p>
+                <p>Envio de:<span class="detalhe">São Paulo</span></p>
+                </div>
+               </div>
+        <section id="resto2">
+                <div class="cada">
+                    <div class="tCada">
+                    <h2>Seja parte do <br>Conecta<span id="vendas">Vendas</span></h2>
+                    <h3>cadastre-se como vendedor</h3>
+                </div>
+                <div class="banerzinho">
+                    <img src="img/bannerzinho.png"  class="banner" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="contato"><p class="c">Contato:</p>
+            <p>Telefone: (11) 99999-0000</p>
+            <p>E-mail: conectavendas@gmail.com.br</p>
+        </div>
+     <div class="trabalhe"><p class="c">Trabalhe conosco:</p>
+    <button>Cadastre-se como vendedor</button> </div>
+    </footer>
+   <script src="script.js"></script>
+</body>
+</html>
