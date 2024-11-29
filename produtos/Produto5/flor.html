@@ -3,44 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Manta</title>
     <link rel="stylesheet" href="estiloFlor.css">
 </head>
 <body>
     <header>
-        <p id="nome"> <span>Conecta</span>Vendas</p>
-        <div class="cabe">
-            <nav class="menu">
-                <a href="">Home</a>
-                <a href="">Quem somos</a>
-                <a href="">Lojas</a>
-            </nav>
-            <button class="login"><img src="img/do-utilizador.png" alt=""></button>
-            <button class="carrinho"><img src="img/carrinhosem.png" alt=""></button>
-            <label for="">0</label>
-            <a class="contato">contato</a>
-        </div>  
+        <img src="img/SacolaDeCompra.png" id="logo" alt="">
+        <nav> <a href="/home.html">Contato</a>
+            <a href="/home.html">Quem somos</a>
+            <a href="/home.html">Home</a>
+            <a href="/lojas/lojas.html">Produtos</a>
+        </nav>
+
+        <div class="icones"> <a href=""><img src="img/carrinhosem (1).png" alt=""></a> <a href="/Login.html"><img src="img/Icone.png"
+                    alt=""></a> </div>
     </header>
     <main>
-        <section id="produtinho">
+        <section id="produto">
             <div class="tudoProduto">
                 <div class="ftGrande">
-                    <img class="fotoFone" id="foto ativa" src="img/florPrin.png" alt="foto principal do produto" >
+                    <img class="fotoManta" id="imagem-principal" src="img/florRosa.png"alt="foto principal do produto" >
                 </div>
                 <div class="infosProduto">
-                    <p class="vendedor">Vendido por: <span id="vend">Lorem Ipsum</span></p>
-                    <h2 class="desc">Piranha de cabelo de flor</h2>
+                    <p class="vendedor">Vendido por: <span id="vend">Soneda perfumaria</span></p>
+                    <h2 class="desc">Presilha de cabelo de flor</h2>
                     <div class="ava">
-                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
-                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
-                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
-                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
-                        <img class="estrelinha" src="img/estrelinhaNegativa.png" alt="">
+                        <img class="estrela" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrela" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrela" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrela" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrela" src="img/estrelinhaNegativo.png" alt="">
                         <h4>4.0</h4>
                     </div>
                     <div class="quantidade">
                         <h3>R$5,00</h3>
-                        <p class="quantidadinha">Quantidade:</p>
+                        <p class="quantidade2">Quantidade:</p>
                         <select name="quant" id="">
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -55,8 +52,7 @@
                         </select>
                         </div>
                         <div class="buy">
-                            <button class="comprar" type="onclick">COMPRAR</button>
-                            <button class="add" type="onclick">Adicionar ao carrinho <img src="img/carrinhobt.png" alt=""></button>
+                            <button id="add-to-cart" class="add" >Adicionar ao Carrinho <img src="img/carrinhobt.png" alt=""></button>
                         </div>
                     </div>
                 </div>
@@ -64,56 +60,94 @@
             <div class="tipos">
             <p class="cor">Cor: </p>
                     <div class="variacoes">
-                        <div class="fone">
-                            <img src="img/florRosa.png" alt="">
-                        </div>
-                        <div class="fone">
-                            <img src="img/florAmarela.png" alt="">
-                        </div>
-                        <div class="fone">
-                            <img src="img/florRoxa.png" alt="">
-                        </div>
+                        <button type="onclick" class="presilha">
+                            <img class="foto" src="img/florRosa.png" alt="">
+                        </button>
+                        <button type="onclick" class="presilha">
+                            <img class="foto" src="img/florAmarela.png" alt="">
+                        </button>
+                        <button type="onclick" class="presilha">
+                            <img class="foto" src="img/florRoxa.png" alt="">
+                        </button>
                      </div>
                     </div>  
         </section>
         <section id="resto">
-            <div class="tFinal">
-                <div class="filtro">
-                <div class="opcao active" onclick="activateOpcao(this)">Detalhes</div>
-                <div class="opcao" onclick="activateOpcao(this)">Avaliações</div>
-                </div>
-               <div class="detalhes">
-                <p>Piranha de Cabelo de Flor é o acessório perfeito para unir praticidade e estilo no cuidado com os cabelos. Com um design delicado e elegante em formato de flor, ela não apenas mantém os fios bem presos, mas também adiciona um toque especial ao visual. Versátil, é ideal para o uso no dia a dia ou em eventos, garantindo conforto e sofisticação. Sua estrutura é leve e resistente, proporcionando segurança sem danificar os fios. Um detalhe encantador que transforma qualquer penteado em uma expressão de beleza e charme.</p>
+                <div class="opcao active">Detalhes</div>
+                <div class="detalhes">
+                <p>Com um design delicado e elegante em formato de flor, ela não apenas mantém os fios bem presos, mas também adiciona um toque especial ao visual. Versátil, é ideal para o uso no dia a dia ou em eventos, garantindo conforto e sofisticação. Sua estrutura é leve e resistente, proporcionando segurança sem danificar os fios.
+                    <br>
+                    <br>
+                    <br>
+                    Material: Plástico 100%.
+                    <br>
+                    <br>
+                    Dimensões: Aproximadamente 4 cm x 5,6 cm.
+                    
+                </p>
                </div>
-               <h1 class="especifi">Especificações</h1>
-               <div class="especificacoes">
-               <p>Material: <span class="detalhe">As piranhas podem ser confeccionadas em plástico, acrílico ou metal. Por exemplo, a Piranha de Cabelo Flor Branca da Accessori by Riachuelo é feita de plástico 100%.</span></p>
-               <p>Dimensões: <span class="detalhe"> Os tamanhos variam conforme o modelo. Um kit da Renner apresenta piranhas com aproximadamente 4 cm de altura por 5,6 cm de largura.</span> </p>
-               <p>Design: <span class="detalhe"> O formato de flor confere um toque delicado e elegante, disponível em diversas cores e acabamentos, como dourado, bege, marrom e preto. </span> </p>
-               <p>Aplicações: <span class="detalhe">Algumas versões possuem detalhes adicionais, como aplicações de strass, que adicionam brilho e sofisticação ao acessório.</span> </p>
-               <p>Uso: <span class="detalhe">Adequadas para diferentes tipos e comprimentos de cabelo, as piranhas em formato de flor são ideais para prender mechas ou criar penteados variados, combinando funcionalidade com estética.</span> </p>
-               </div>
-              </div>
-        <section id="resto2">
-                <div class="cada">
-                    <div class="tCada">
-                    <h2>Seja parte do <br>Conecta<span id="vendas">Vendas</span></h2>
-                    <h3>cadastre-se como vendedor</h3>
+               <div class="Avaliacoes">
+                <div class="opcao">Avaliações</div>
+                <div class="avaliacao1">
+                <p class="data">2024-09-13 11:51 | Variação: Rosa</p>
+                <div class="user2"><img src="img/User.png" alt=""><p>mariasouzacampos</p></div>
+                <div class="estrelas">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <h4>5.0</h4>
                 </div>
-                <div class="banerzinho">
-                    <img src="img/bannerzinho.png"  class="banner" alt="">
-                </div>
+                <p class="comentario">Amei a presilha, além de linda, segura muito bem o cabelo.</p>
+                <div class="listra"></div>
             </div>
+             <div class="avaliacao2">
+                <p class="data">2023-10-09 22:23 | Variação: Amarelo</p>
+                <div class="user2"><img src="img/User.png" alt=""><p>claudia</p></div>
+                <div class="estrelas">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaNegativo.png" alt="">
+                    <img src="img/estrelinhaNegativo.png" alt="">
+                    <h4>3.0</h4>
+                </div>
+                <p class="comentario">Poderia ser maior. Tenho muito cabelo e essa presilha não deu conta.</p>
+                <div class="listra"></div>
+            </div>
+            <div class="avaliacao3">
+                <p class="data">2024-09-13 11:51 | Variação: Rosa</p>
+                <div class="user2"><img src="img/User.png" alt=""><p>marciagoes</p></div>
+                <div class="estrelas">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <h4>5.0</h4>
+                </div>
+                <p class="comentario">To impressionada com a qualidade. E pelo valor, vale super a pena. Apenas comprem!!!!!!</p>
+                <div class="listra"></div>
+            </div>
+            </div>
+
+        <section id="resto2">
+             
         </section>
     </main>
     <footer>
-        <div id="contato"><p class="c">Contato:</p>
-            <p>Telefone: (11) 99999-0000</p>
-            <p>E-mail: conectavendas@gmail.com.br</p>
+        <div class="men">
+            <a href="/home.html">Quem somos</a>
+            <a href="/home.html">Home</a>
+            <a href="/lojas/lojas.html">Lojas</a>
         </div>
-     <div class="trabalhe"><p class="c">Trabalhe conosco:</p>
-    <button>Cadastre-se como vendedor</button> </div>
+        <div class="contato" id="contato">
+            <p class="num">Telefone: (11) 99999-0000 </p>
+            <p class="num">E-mail:conectavendas@gmail.com.br</p>
+        </div>
     </footer>
-   <script src="script.js"></script>
+   <script src="produto.js"></script>
+  
 </body>
 </html>

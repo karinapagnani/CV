@@ -68,8 +68,15 @@ button{
     border-radius: 10px;
     background-color: #424242;
     border: 1px solid black;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #371fbd; 
+}
+button a {
     color: white;
     font-family: regular;
+    text-decoration: none;
 }
 input{
     border: 1px solid #DCDCDC;
