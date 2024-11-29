@@ -55,6 +55,14 @@ a {
     height: 13px;
     margin: 7px;
 }
+#imagem-principal {
+    display: block;
+    height: 350px;
+
+}
+.foto {
+    cursor: pointer;
+}
 body{
     background-color: #f9f9f9f8;
 }
@@ -154,6 +162,10 @@ body{
      width: 270px;
      border-radius: 8px;
      background-color: white;
+     transition: border 0.3s ease;
+}
+.add:hover {
+   border: solid #7ebcd3 1px;
 }
 .vendedor {
     color: #797979;
@@ -189,6 +201,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     display: grid;
     place-items: center;
+    background-color: #f9f9f9;
 }
 footer p {
     padding-bottom: 15px;

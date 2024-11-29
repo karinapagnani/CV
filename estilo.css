@@ -12,16 +12,11 @@
     font-family: "Inter";
     src: url(font/Inter-VariableFont_opsz\,wght.ttf);
 }
-
-
-
-
 *{
     border: 0;
     margin: 0;
     padding: 0;
 }
-
 a{
     text-decoration: none;
     color: black;
@@ -29,7 +24,9 @@ a{
     font-size: 13px;
     margin: 0px 25px;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 header{
 
     display: flex;
@@ -457,6 +454,12 @@ p span {
   font-weight: 400;
   border-radius: 20px;
   padding: 5px 20px;
+  transition: background-color 0.3s ease;
+}
+.pr a:hover {
+  background-color: #364ae4;
+  border: solid #364ae4 2px;
+  color: white;
 }
 
 .autocomplete-items div {

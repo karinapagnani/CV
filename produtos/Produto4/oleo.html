@@ -3,44 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Oleo Johnson's</title>
     <link rel="stylesheet" href="estiloOleo.css">
 </head>
 <body>
     <header>
-        <p id="nome"> <span>Conecta</span>Vendas</p>
-        <div class="cabe">
-            <nav class="menu">
-                <a href="">Home</a>
-                <a href="">Quem somos</a>
-                <a href="">Lojas</a>
-            </nav>
-            <button class="login"><img src="img/do-utilizador.png" alt=""></button>
-            <button class="carrinho"><img src="img/carrinhosem.png" alt=""></button>
-            <label for="">0</label>
-            <a class="contato">contato</a>
-        </div>  
+        <img src="img/SacolaDeCompra.png" id="logo" alt="">
+        <nav> <a href="/home.html">Contato</a>
+            <a href="/home.html">Quem somos</a>
+            <a href="/home.html">Home</a>
+            <a href="/lojas/lojas.html">Produtos</a>
+        </nav>
+
+        <div class="icones"> <a href=""><img src="img/carrinhosem (1).png" alt=""></a> <a href="/Login.html"><img src="img/Icone.png"
+                    alt=""></a> </div>
     </header>
     <main>
-        <section id="produtinho">
+        <section id="produto">
             <div class="tudoProduto">
                 <div class="ftGrande">
-                    <img class="fotoFone" id="foto ativa" src="img/oleo-removebg-preview.png" alt="foto principal do produto" >
+                    <img class="fotoManta" id="imagem-principal" src="img/oleo.png"alt="foto principal do produto" >
                 </div>
                 <div class="infosProduto">
-                    <p class="vendedor">Vendido por: <span id="vend">Lorem Ipsum</span></p>
-                    <h2 class="desc">Óleo Johnson's Baby Regular Hidrata e Amacia</h2>
+                    <p class="vendedor">Vendido por: <span id="vend">Empório do Lençol</span></p>
+                    <h2 class="desc">Óleo Johnson's Baby Regular Hidrata e Amacia
+                    </h2>
                     <div class="ava">
-                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
-                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
-                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
-                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
-                        <img class="estrelinha" src="img/estrelinhaAva.png" alt="">
-                        <h4>5.0</h4>
+                        <img class="estrela" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrela" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrela" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrela" src="img/estrelinhaAva.png" alt="">
+                        <img class="estrela" src="img/estrelinhaNegativo.png" alt="">
+                        <h4>4.0</h4>
                     </div>
                     <div class="quantidade">
                         <h3>R$39,00</h3>
-                        <p class="quantidadinha">Quantidade:</p>
+                        <p class="quantidade2">Quantidade:</p>
                         <select name="quant" id="">
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -55,52 +53,109 @@
                         </select>
                         </div>
                         <div class="buy">
-                            <button class="comprar" type="onclick">COMPRAR</button>
-                            <button class="add" type="onclick">Adicionar ao carrinho <img src="img/carrinhobt.png" alt=""></button>
+                            <button id="add-to-cart" class="add" >Adicionar ao Carrinho <img src="img/carrinhobt.png" alt=""></button>
                         </div>
                     </div>
                 </div>
             </div>
- 
+        </section>
         <section id="resto">
-            <div class="tFinal">
-                <div class="filtro">
-                <div class="opcao active" onclick="activateOpcao(this)">Detalhes</div>
-                <div class="opcao" onclick="activateOpcao(this)">Avaliações</div>
-                </div>
-               <div class="detalhes">
-                <p>O Óleo Johnson's Baby Regular é formulado para hidratar profundamente e deixar a pele macia e suave. Ideal para bebês, é dermatologicamente testado e oferece cuidado delicado, mantendo a pele protegida e saudável.</p>
-                <h1 class="especifi">Especificações</h1>
-                <div class="especificacoes">
-                <p>Hidratação profunda: <span class="detalhe"> mantém a umidade natural da pele, deixando-a macia e suave.</span></p>
-                <p>Fórmula suave: <span class="detalhe">transparente e emoliente, adequada para todas as idades.</span> </p>
-                <p>Uso versátil:<span class="detalhe">ideal para massagens e relaxamento de bebês e crianças.</span> </p>
-                <p>Sem aditivos nocivos:<span class="detalhe">livre de corantes, parabenos e ftalatos.</span> </p>
-                <p>Dermatologicamente testado: <span class="detalhe">segurança comprovada para uso diário.</span> </p>
-                <p>Quantidade:<span class="detalhe">01</span> </p>
-                <p>Envio de:<span class="detalhe">São Paulo</span></p>
-                </div>
+                <div class="opcao active">Detalhes</div>
+                <div class="detalhes">
+                <p>O Óleo Johnson's Baby Regular é formulado para hidratar profundamente e deixar a pele macia e suave. Ideal para bebês, é dermatologicamente testado e oferece cuidado delicado, mantendo a pele protegida e saudável. 
+                    <br>
+                    <br>
+                    <br>
+                    Hidratação profunda: mantém a umidade natural da pele, deixando-a macia e suave.
+                    <br>
+                    <br>
+                    Fórmula suave: transparente e emoliente, adequada para todas as idades.
+                    <br>
+                    <br>
+                    Uso versátil: ideal para massagens e relaxamento de bebês e crianças.
+                    <br>
+                    <br>
+                    Sem aditivos nocivos: livre de corantes, parabenos e ftalatos.
+                    <br>
+                    <br>
+                    Dermatologicamente testado: segurança comprovada para uso diário.
+                    <br>
+                    <br>
+                    Envio de: São Paulo
+                </p>
                </div>
-        <section id="resto2">
-                <div class="cada">
-                    <div class="tCada">
-                    <h2>Seja parte do <br>Conecta<span id="vendas">Vendas</span></h2>
-                    <h3>cadastre-se como vendedor</h3>
+               <div class="Avaliacoes">
+                <div class="opcao">Avaliações</div>
+                <div class="avaliacao1">
+                <p class="data">2024-09-13 11:51 | Variação: Azul</p>
+                <div class="user2"><img src="img/User.png" alt=""><p>mariasouzacampos</p></div>
+                <div class="estrelas">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <h4>5.0</h4>
                 </div>
-                <div class="banerzinho">
-                    <img src="img/bannerzinho.png"  class="banner" alt="">
-                </div>
+                <div class="listra"></div>
             </div>
+            <div class="avaliacao2">
+                <p class="data">2024-05-21 09:04 | Variação: Preta</p>
+                <div class="user2"><img src="img/User.png" alt=""><p>robertorezende</p></div>
+                <div class="estrelas">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <h4>5.0</h4>
+                </div>
+                <div class="listra"></div>
+            </div>
+            <div class="avaliacao3">
+                <p class="data">2023-10-09 22:23 | Variação: Azul</p>
+                <div class="user2"><img src="img/User.png" alt=""><p>claudia</p></div>
+                <div class="estrelas">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaNegativo.png" alt="">
+                    <img src="img/estrelinhaNegativo.png" alt="">
+                    <h4>3.0</h4>
+                </div>
+                <div class="listra"></div>
+            </div>
+            <div class="avaliacao4">
+                <p class="data">2024-09-13 11:51 | Variação: Azul</p>
+                <div class="user2"><img src="img/User.png" alt=""><p>marciagoes</p></div>
+                <div class="estrelas">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <img src="img/estrelinhaPositivo.png" alt="">
+                    <h4>5.0</h4>
+                </div>
+                <div class="listra"></div>
+            </div>
+            </div>
+
+        <section id="resto2">
+             
         </section>
     </main>
     <footer>
-        <div id="contato"><p class="c">Contato:</p>
-            <p>Telefone: (11) 99999-0000</p>
-            <p>E-mail: conectavendas@gmail.com.br</p>
+        <div class="men">
+            <a href="/home.html">Quem somos</a>
+            <a href="/home.html">Home</a>
+            <a href="/lojas/lojas.html">Lojas</a>
         </div>
-     <div class="trabalhe"><p class="c">Trabalhe conosco:</p>
-    <button>Cadastre-se como vendedor</button> </div>
+        <div class="contato" id="contato">
+            <p class="num">Telefone: (11) 99999-0000 </p>
+            <p class="num">E-mail:conectavendas@gmail.com.br</p>
+        </div>
     </footer>
-   <script src="script.js"></script>
+   <script src="produto.js"></script>
+  
 </body>
 </html>

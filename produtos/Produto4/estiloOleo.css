@@ -55,6 +55,14 @@ a {
     height: 13px;
     margin: 7px;
 }
+#imagem-principal {
+    display: block;
+    height: 350px;
+
+}
+.foto {
+    cursor: pointer;
+}
 body{
     background-color: #f9f9f9f8;
 }
@@ -81,7 +89,7 @@ body{
     font-size: 11px;
     border-radius: 20px;
     padding: 6px 22px;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 .login img{
    height: 23px;
@@ -90,8 +98,8 @@ body{
     background-color: #f9f9f9f8;
 }
 .ftGrande {
-    height: 455px;
-    width: 467px;
+    height: 405px;
+    width: 427px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     display: grid;
     place-items: center;
@@ -107,7 +115,7 @@ body{
     font-size: 12px;
     color: #4D4D4D;
 }
-.estrelinha {
+.estrela {
     height: 15px;
 }
 *{
@@ -119,7 +127,7 @@ body{
     margin-bottom: 60px;
     margin-top: 50px;
 }
-.quantidadinha {
+.quantidade2 {
     margin-right: 10px;
     margin-left: 40px;
     font-size: 15px;
@@ -128,15 +136,16 @@ body{
     margin-bottom: 25px;
 }
 .ftGrande img {
-    height: 330px;
+    height: 230px;
 }
 .tudoProduto {
-    padding-top: 100px;
-    padding-left: 180px;
-    padding-right: 100px;
+    padding-top: 0px;
+    padding-left: 190px;
+    padding-right: 190px;
     display: flex;
+    justify-content: space-between;
 }
-#produtinho {
+#produto {
     margin-bottom: 200px;
 }
 .comprar {
@@ -153,6 +162,10 @@ body{
      width: 270px;
      border-radius: 8px;
      background-color: white;
+     transition: border 0.3s ease;
+}
+.add:hover {
+   border: solid #7ebcd3 1px;
 }
 .vendedor {
     color: #797979;
@@ -163,9 +176,11 @@ body{
 }
 .desc {
     color: #3A3A3A;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 30px;
     margin-top: 30px;
+    font-family: "Inter";
+    font-weight: 400;
 }
 .quantidade h3 {
     font-size: 20px;
@@ -178,14 +193,15 @@ body{
 }
 .tipos {
     width: 900px;
-    padding-left: 180px;
+    padding-left: 190px;
 }
-.fone {
+.manta {
     width: 120px;
     height: 135px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     display: grid;
     place-items: center;
+    background-color: #f9f9f9;
 }
 footer p {
     padding-bottom: 15px;
@@ -225,10 +241,10 @@ select {
     font-family: "Inter";
 }
 #resto {
-    margin-top: 200px;
-    margin-right: 100px;
+    margin-top: 0px;
+    margin-right: 190px;
     margin-bottom: 150px;
-    margin-left: 180px;
+    margin-left: 190px;
 }
 #resto2 {
     margin-top: 600px;
@@ -268,29 +284,18 @@ select {
 }
 /* para cada aba */
 .opcao {
-    font-size: 22px;
-    font-weight: 500;
-    color: #C2C2C2;
-    cursor: pointer;
+    font-size: 27px;
+    font-weight: 700;
+    color: black;
     position: relative;
-    padding-bottom: 5px;
+    padding-top: 100px;
 }
 
 /* aba ativa */
 .opcao.active {
-    color: #454545;
+    color: black;
     font-weight: bold;
-}
-
-/* linha da aba ativa */
-.opcao.active::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: black;
+    font-size: 27px;
 }
 .espeCinza {
     color: #797979;
@@ -338,20 +343,160 @@ select {
 .detalhes{
     padding-top: 90px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
 }
-.detalhe{
+
+* {
+    scrollbar-width: thin; 
+    scrollbar-color: #000000 #ffffff; 
+  }
+
+
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "poppinsR";
+    font-size: 13px;
+    margin: 0px 25px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.842);
+    border-bottom: 0.2px solid rgba(34, 34, 34, 0.756);
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+ }
+
+
+header nav{
+    margin: 0 100px 0 130px;
+}
+
+#logo {
+    height: 23px;
+    width: 25px;
+}
+
+
+body{
+   padding-top: 150px;
+}
+
+
+footer{
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ footer a{
+    color: white;
+    font-size: 16px;
+ }
+
+ .men{
+    border-bottom: 0.3px solid rgba(255, 255, 255, 0.636);
+    padding: 25px 0;
+    width: 1517px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .contato{
+    color: white;
+    display: flex;
+    flex-direction: row;
+ 
+    justify-content: space-around;
+    width: 1510px;
+    font-family: "Inter";
+    padding: 30px 0px;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    align-items: center;
+ }
+
+ .contato p {
+ 
+    font-size: 17px;
+    font-weight: 300;
+ }
+
+.mis{
+    font-family: "Inter";
+    font-size: 22px;
+    font-weight: 300;
+    text-align: justify;
+    padding-bottom: 105px;
+    
+}
+.data{
+    padding-top: 80px;
+    padding-bottom: 30px;
     color: #797979;
-    font-weight: 400;
+    font-size: 20px;
 }
-.especificacoes{
-    font-weight: 500;
+.user2{
+    display: flex;
+    padding-top: 20px;
 }
-.especifi{
-    padding-top: 120px;
-    font-size: 40px;
+.user2 p{
+    padding-left: 10px;
+    padding-top: 4px;
+    font-size: 18px;
 }
-.especificacoes p{
+.user2 img{
+    width: 30px;
+    height: 30px;
+}
+.estrelas{
     padding-top: 30px;
+    width: 35px;
+    height: 35px;
+}
+.estrelas h4 {
+    padding-top: 8px;
+    padding-left: 5px;
+}
+.comentario{
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 20px;
+}
+.listra{
+    width: 100%;
+    background-color: #686868;
+    height: 1px;
+    margin-top: 70px;
+}
+.mantaava{
+    width: 200px;
+    height: 250px;
+    padding-bottom: 20px;
 }

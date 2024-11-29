@@ -2,8 +2,8 @@
 const suggestions = {
     "Fone Bluetooth branco": "paginaDoFone/index.html",
     "Manta Blanket 300 Casal de poliéstersa": "/produtos/Produto2/manta.html",
-    "Pen Drive 64GB USB": "paginaDoPenDrive/index.html",
-    "Presilha de cabelo de flor": "paginaDaPresilha/index.html",
+    "Pen Drive 64GB USB": "/produtos/Produtos3/pendrive.html",
+    "Presilha de cabelo de flor": "/produtos/Produto5/flor.html.html",
 };
   
   const searchInput = document.getElementById("search-input");
